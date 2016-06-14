@@ -1,0 +1,8 @@
+<h1>Contact</h1>
+
+<form {{action 'save' on="submit"}}>
+  <p>Name:{{input value=model.firstName disabled=isEditing}} {{input value=model.firstName disabled=isEditing}}</p>
+  <p>Email:{{input type="email" value=model.email disabled=isEditing}}</p>
+  <button>Edit</button>
+  <button>Delete</button>
+</form>

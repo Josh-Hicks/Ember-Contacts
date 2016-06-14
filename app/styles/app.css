@@ -1,0 +1,15 @@
+.navbar-inverse .navbar-brand {
+  color: #fafafa;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fafafa;
+}
+
+.navbar-btn {
+  margin-right: 20px;
+}
+
+.btn-margin {
+  margin-right: 20px;
+}
