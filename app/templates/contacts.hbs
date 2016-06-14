@@ -16,7 +16,8 @@
           <td>{{contact.firstName}}</td>
           <td>{{contact.lastName}}</td>
           <td>{{contact.email}}</td>
-          <td><button class="btn btn-warning">Edit</button></td>
+          <td><button class="btn btn-warning" {{action 'edit' contact}}>Edit</button></td>
+          <td><button class="btn btn-danger" {{action 'delete' contact}}>Delete</button></td>
         </tr>
       {{/each}}
       </tbody>
