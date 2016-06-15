@@ -16,7 +16,7 @@
           <td>{{contact.firstName}}</td>
           <td>{{contact.lastName}}</td>
           <td>{{contact.email}}</td>
-          <td>{{#link-to 'contacts.edit' contact.id tagName="button" classNames="btn btn-warning"}}Edit{{/link-to}}</td>
+          <td>{{#link-to 'contacts.edit' contact tagName="button" classNames="btn btn-warning"}}Edit{{/link-to}}</td>
           <td><button class="btn btn-danger" {{action 'delete' contact}}>Delete</button></td>
         </tr>
       {{/each}}

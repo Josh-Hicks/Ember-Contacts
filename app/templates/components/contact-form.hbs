@@ -1,0 +1,13 @@
+<form {{action 'save' on="submit"}}>
+  {{input placeholder="First Name" class="form-control" value=firstName}}
+  <br>
+  <br>
+  {{input placeholder="Last Name" class="form-control" value=lastName}}
+  <br>
+  <br>
+  {{input placeholder="Email" class="form-control" value=email}}
+  <br>
+  <br>
+  <button class="btn btn-default pull-right" {{action 'cancel'}}>Cancel</button>
+  <button class="btn btn-success pull-right btn-margin">Save</button>
+</form>

@@ -1,11 +1,11 @@
 <form {{action 'save' on="submit"}}>
-  {{input placeholder="First Name" class="form-control" value=firstName}}
+  {{input placeholder="First Name" class="form-control" value=model.firstName}}
   <br>
   <br>
-  {{input placeholder="Last Name" class="form-control" value=lastName}}
+  {{input placeholder="Last Name" class="form-control" value=model.lastName}}
   <br>
   <br>
-  {{input placeholder="Email" class="form-control" value=email}}
+  {{input placeholder="Email" class="form-control" value=model.email}}
   <br>
   <br>
   <button class="btn btn-default pull-right" {{action 'cancel'}}>Cancel</button>

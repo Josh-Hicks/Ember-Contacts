@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  model(contact) {
-    return this.store.findAll('contact');
+  model(params) {
+    return this.store.findRecord('contact', params.contact_id);
   }
 });
