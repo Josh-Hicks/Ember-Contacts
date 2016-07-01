@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'contacts',
+    modulePrefix: 'Ember-Contacts',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
